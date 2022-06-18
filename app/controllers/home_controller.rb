@@ -1,6 +1,6 @@
 class HomeController < ApplicationController
   def index
-    @title = 'Rails練習！'
+    @article = Article.first
   end
 
   def about
